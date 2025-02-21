@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+h1 {
+    color: #333;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 18px;
+    border: 2px #020101;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-start {
+    background-color: #28a745;
+    color: white;
+}
+
+.btn-start:hover {
+    background-color: #218838;
+}
+
+.btn-score {
+    background-color: #007bff;
+    color: white;
+}
+
+.btn-score:hover {
+    background-color: #0056b3;
+}
+
+.score-board {
+    margin-top: 30px;
+    display: none;
+}
+
+.score-board h2 {
+    color: #555;
+}
+
+.score-list {
+    list-style: none;
+    padding: 0;
+}
+
+.score-list li {
+    background: white;
+    margin: 5px auto;
+    padding: 10px;
+    width: 50%;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Centrar el botón en el contenedor */
+#clearAttempts {
+    display: none; /* Oculto por defecto */
+    font-size: 18px;
+    padding: 12px 24px;
+    width: 200px;
+    background-color: hsl(0, 100%, 89%);
+    border: 2px solid black;
+    color: rgb(0, 0, 0);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+    /* Centrando el botón */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto; /* Margen automático para centrar horizontalmente */
+}
+
+/* Efecto hover */
+#clearAttempts:hover {
+    background-color: #dfea44;
+}
+
+.description {
+    font-size: 18px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+}

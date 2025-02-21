@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú Examen</title>
+    <script src="menú.js"></script>
+    <link rel="stylesheet" href="menú.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Bienvenido al Examen de ADMISIÓN</h1>
+        <p class="description">
+            ¡Es hora de poner a prueba tus conocimientos! 🌟  
+            Enfréntate a un desafío lleno de lógica y razonamiento.  
+            Responde cada pregunta con confianza y demuestra de lo que eres capaz.  
+            📚 ¡Buena suerte y da lo mejor de ti! 💪
+        </p>
+
+        <div class="menu">
+            <button class="btn-start" onclick="startExam()">Iniciar Examen</button>
+            <button class="btn-score" onclick="showScores()">Ver Intentos</button>
+        </div>
+
+        <div class="score-board" id="scoreBoard">
+            <h2>Historial de Intentos</h2>
+            <ul class="score-list" id="scoreList"></ul>
+            <button class="button" id="clearAttempts" style="display: none;">Eliminar Intentos</button>
+        </div>
+
+
+    
+</body>
+</html>

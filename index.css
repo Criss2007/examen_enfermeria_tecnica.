@@ -1,0 +1,31 @@
+.button {
+    font-size: 18px;
+    padding: 12px 24px;
+    width: 200px;
+    background-color: hsl(0, 100%, 89%);
+    border: 2px solid black;
+    color: rgb(0, 0, 0);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+} d
+
+.button:hover {
+    background-color: #01ff27ca;
+}
+
+.problema1 {
+    width: 33%;
+    border: 1px solid #e7ff5f;
+    box-shadow: 0 0 10px #01ff27, 0 0 30px #e8fa58, 0 0 45px #01ff27;
+    border-radius: 10px; /* Opcional, para bordes redondeados */
+    margin-left: 210px; /* Ajusta este valor según lo necesites */
+}
+
+.problema2 {
+    width: 22%;
+    border: 1px solid #ff5fc7;
+    box-shadow: 0 0 30px #ff04f7, 0 0 30px #fa58c4, 0 0 45px #01ff27;
+    border-radius: 10px; /* Opcional, para bordes redondeados */
+    margin-left: 210px; /* Ajusta este valor según lo necesites */
+}
